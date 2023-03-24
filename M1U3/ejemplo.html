@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primer HTML JUAN</title>
+</head>
+<body>
+    <!-- esto es un comentario en HTML-->
+
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+
+    <H2>Quienes somos</H2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptas beatae rem odio nobis tempora saepe quas ducimus eius quod. Mollitia eos voluptatem ducimus architecto ullam accusantium consectetur amet aperiam?</p>
+    <h2>Ejemplos listas</h2>
+    <ul>
+        <li>Boca</li>
+        <li>River</li>
+        <li>San Lorenzo</li>
+    </ul>
+    <ol>
+        <li>Boca</li>
+        <li>River</li>
+        <li>San Lorenzo</li>
+     </ol>
+
+     <h2>Ejemplo de la etiqueta a</h2>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati quia dolores similique! Velit, nemo reprehenderit! Nihil beatae maiores ea tempore, laboriosam nulla, praesentium modi voluptatum dignissimos illo impedit soluta vero? <A href="https://code.visualstudio.com/download" target="_blank">AQUI</A></p>
+
+     <H2>Ejemplo etiquetas imagen</H2>
+     <img src="vista-tridimensional-edificio-apartamentos-dibujos-animados.jpg" alt="Casa" />
+     <img src="imagen/cubo-aislado-sobre-fondo-blanco.jpg" alt="Cubo" />
+     
+     <h2>Complete el siguiente formulario</h2>
+     <form action="">
+        <p>
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" />
+        </p>
+        <p>
+            <input type="text" name="apellido" placeholder="apellido" />
+        </p>
+        <p>
+            <label for="pass">contraseña</label>
+            <input type="password" name="pass" />
+        </p>
+        <label for="sexo">Sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="hombre">
+                <label>Hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="mujer">
+                <label>Mujer</label>
+            </li>
+        </ul>
+        <label> Hobbies </label>
+        <ul>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="bailar" id="bailar" />
+                <label for="bailar">Bailar</label>                
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="cantar" id="cantar" />
+                <label for="cantar">Cantar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="nadar" id="nadar" />
+                <label for="nadar">Nadar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="correr" id="correr" />
+                <label for="correr">Correr</label>
+            </li>
+        </ul>
+        <p>
+            <label for="titulo">Titulo</label>
+            <select name="titulo">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="Universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+        </p>        
+     </form>
+     
+
+    </body>
+</html>
