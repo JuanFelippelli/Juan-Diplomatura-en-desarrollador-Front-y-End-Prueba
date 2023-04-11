@@ -1,0 +1,129 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Advent Pro', sans-serif;
+*/
+
+h1 {
+    color: #e60000;
+    /*esto es para cambiar el color de etiqueta*/
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background: #000000;
+    background: radial-gradient(circle farthest-side at top center, #000000 0%, #ffffff 90%);
+    background: -webkit-radial-gradient(circle farthest-side at top center, #000000 0%, #ffffff 90%);
+    background: -moz-radial-gradient(circle farthest-side at top center, #000000 0%, #ffffff 90%);
+    box-shadow: 1px -1px 124px 27px rgba(246, 255, 178, 0.56);
+    -webkit-box-shadow: 1px -1px 124px 27px rgba(246, 255, 178, 0.56);
+    -moz-box-shadow: 1px -1px 124px 27px rgba(246, 255, 178, 0.56);
+    text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.6);
+    border-radius: 154px 0px 32px 0px;
+    -webkit-border-radius: 154px 0px 32px 0px;
+    -moz-border-radius: 154px 0px 32px 0px;
+    border: 7px outset #2353ff;
+}
+
+h2 {
+    color: #e580ff;
+    font-size: 22px;
+    /*tamaño de letra*/
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Advent Pro', sans-serif;
+    font-style: oblique;
+    text-shadow: 0px 3px 4px rgba(255,117,117,1);
+    /*Para el stilo de la letra*/
+    background-color: #585858;
+    /*para pintar el fondo*/
+    border-radius: 106px 37px 105px 35px;
+    -webkit-border-radius: 106px 37px 105px 35px;
+    -moz-border-radius: 106px 37px 105px 35px;
+    border: 5px solid rgba(225, 225, 225, 0.94);
+}
+
+p {
+    color: #c80000;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+
+.D1 {
+    color: #6aacbd;
+    font-weight: bold;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 14px;
+}
+
+.D2 {
+    color: #afc61a;
+    font-weight: bold;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 14px;
+}
+
+.D3 {
+    color: #9b9b9b;
+    font-weight: bold;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 14px;
+}
+
+#PELIS {
+    background: #00ff67;
+    background: radial-gradient(ellipse farthest-corner at center center, #00ff67 0%, rgba(0, 212, 255, 0.26) 80%);
+    background: -webkit-radial-gradient(ellipse farthest-corner at center center, #00ff67 0%, rgba(0, 212, 255, 0.26) 80%);
+    background: -moz-radial-gradient(ellipse farthest-corner at center center, #00ff67 0%, rgba(0, 212, 255, 0.26) 80%);
+    text-shadow: -1px -3px 11px rgba(0, 0, 0, 0.76);
+    border: 3px dotted #080808;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    width: 400px;
+    border: 5px solid rgb(250, 255, 105) column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-gap: 50px;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-rule: 1px dashed rgba(255, 0, 227, 0.29);
+    -webkit-column-rule: 1px dashed rgba(255, 0, 227, 0.29);
+    -moz-column-rule: 1px dashed rgba(255, 0, 227, 0.29);
+}
+
+#SERIES {
+    background-color: chartreuse;
+    width: 350px;
+    font-size: 20px;
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    border-bottom-right-radius: 200px;
+    border-right: 5px dashed red;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#DATOS {
+    background-color: brown;
+    width: 500px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+    border-radius: 20px;
+}
+
+#CUADRO {
+    background-color: grey;
+    width: 700PX;
+    font-size: 20px;
+    padding: 20px;
+    margin: 50px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
