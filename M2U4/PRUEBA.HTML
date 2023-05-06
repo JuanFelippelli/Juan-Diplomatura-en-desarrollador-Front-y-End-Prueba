@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid" style="background: black;">
+        <div class="container-fluid text-center">
+            <div class="row align-items-start">
+                <div class="col" style="color: white;">
+                    <h3>Home</h3>
+                </div>
+                <div class="col" style="color: white;">
+                    <h3>Nosotros</h3>
+                </div>
+                <div class="col" style="color: white;">
+                    <h3>Trabajos Realizados</h3>
+                </div>
+                <div class="col" style="color: white;">
+                    <h3>Clientes</h3>
+                </div>
+                <div class="col" style="color: white;">
+                    <h3>Contactos</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="background: gold;">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Cliente 1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Estamos contectos con sus trabajos.</strong> Cumplieron con lo pactado.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Cliente 2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Es un gran equipo de trabajo.</strong> Muestran un gran compromiso.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Cliente 3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Conformes volveríamos a contratarlos.</strong> Aplican en tiempo y forma.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="background: violet;">
+        <form>
+            <div class="mb-3" style="background-color: rgb(79, 217, 127);">
+                <label for="form-text" class="form-label">Apellido y Nombre</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text" style="text-align: center;">Reservamos tu identidad.</div>
+            </div>
+            <div class="mb-3" style="background-color: aqua;">
+                <label for="exampleInputPassword1" class="form-label" style="color: red;">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check" style="background-color: silver;">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Acepto Términos</label>
+            </div>
+            <button type="button" class="btn btn-danger">Enviar</button>
+        </form>
+    </div>
+    <div class="container-fluid" style="background: blue;">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://via.placeholder.com/1150x150" class="data-bs-ride" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/1160x150" class="data-bs-toggle" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/1170x150" class="device-width" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
