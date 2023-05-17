@@ -1,0 +1,188 @@
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+/*
+.color1 {color: #f0d910;}
+.color2 {color: #ffff6e;}
+.color3 {color: #221b00;}
+.color4 {color: #797772;}
+.color5 {color: #e2e2e2;}
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: #ffff6e;
+    ;
+    padding: 16px 16px;
+}
+
+header h2 {
+    color: #221b00;
+    ;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: #f0d910;
+    ;
+    margin-bottom: 0px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: rgba(0, 0, 0, 0.448);
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 3px 0px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    clear: both;
+    color: whitesmoke;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+nav ul li a.activo {
+    background-color: #b7ff98;
+    ;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*Comienzo de Home*/
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 10px;
+
+}
+
+.DetalleHome {
+    width: 100%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 15px;
+}
+
+main {
+    background-color: rgb(202, 255, 205);
+}
+
+main div div img {
+    padding-top: 20px;
+}
+
+.homeing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Visión {
+    margin: 2%;
+}
+
+.DetalleHome2 {
+    width: 100%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/*Finalización Home*/
+
+/*Comienzo de Nosotros*/
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 10px;
+   text-transform: uppercase;
+   }
+
+.Juan{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-inline: 5%;
+    background-color: black;
+    color: white;
+}
+
+.Facu{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-inline: 5%;
+    background-color: black;
+    color: white;
+}
+
+.Santi{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-inline: 5%;
+    background-color: black;
+    color: white;
+}
+
+.historia{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+}
+
